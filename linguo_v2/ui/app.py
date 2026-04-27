@@ -21,22 +21,43 @@ orch = Orchestrator()
 
 # ── Helper formatters ──────────────────────────────────────────────────────────
 
-def _highlight_sentence(sentence: str, foreign_word: str, display_word: str) -> str:
-    """
-    Replace the native-script token in the sentence with a highlighted span
-    showing display_word (e.g. '狗 (Gou)' for CJK, or 'perro' for Latin).
-    Uses re.sub with re.escape so multi-byte CJK chars are matched exactly once.
-    """
+# BCP-47 language codes for Web Speech API
+_LANG_CODES = {
+    "Spanish":    "es-ES",
+    "French":     "fr-FR",
+    "German":     "de-DE",
+    "Italian":    "it-IT",
+    "Portuguese": "pt-PT",
+    "Mandarin":   "zh-CN",
+    "Japanese":   "ja-JP",
+    "Korean":     "ko-KR",
+}
+
+
+def _highlight_sentence(sentence, foreign_word, display_word, language=""):
+    """Replace the native-script token with a clickable TTS button."""
     import re as _re
-    span = (
-        f'<span style="background:#3b5bdb;color:#fff;padding:2px 10px;'
-        f'border-radius:6px;font-weight:600;white-space:nowrap;">' 
-        + display_word +
-        '</span>'
+    lang_code = _LANG_CODES.get(language, "")
+    # Escape single quotes so the word is safe inside JS string literals
+    safe_word = foreign_word.replace("\\", "\\\\").replace("'", "\\'")
+    # Build onclick attribute value
+    onclick_val = "speakWord('" + safe_word + "', '" + lang_code + "')"
+    # Build hover style values  
+    hover_on  = "this.style.background='#2f4ac7'"
+    hover_off = "this.style.background='#3b5bdb'"
+    button = (
+        '<button onclick="' + onclick_val + '"'
+        + ' title="Click to hear pronunciation"'
+        + ' style="background:#3b5bdb;color:#fff;padding:3px 12px;'
+        + 'border-radius:6px;font-weight:600;white-space:nowrap;'
+        + 'border:none;cursor:pointer;font-size:inherit;'
+        + 'transition:background 0.15s;"'
+        + ' onmouseover="' + hover_on + '"'
+        + ' onmouseout="' + hover_off + '">'
+        + '\U0001f50a ' + display_word + '</button>'
     )
-    # re.escape ensures CJK chars and special chars are treated as literals
-    highlighted = _re.sub(_re.escape(foreign_word), span, sentence, count=1)
-    return f'<p style="font-size:1.25rem;line-height:1.9;margin:0.5rem 0">{highlighted}</p>'
+    highlighted = _re.sub(_re.escape(foreign_word), button, sentence, count=1)
+    return '<p style="font-size:1.25rem;line-height:1.9;margin:0.5rem 0">' + highlighted + '</p>'
 
 
 def _error_html(msg: str) -> str:
@@ -52,13 +73,36 @@ def _vocab_html(state) -> str:
         return "<p style='color:gray;padding:1rem'>No words yet — start practicing!</p>"
     rows = ""
     for word, rec in state.vocab.items():
-        color = "#dcfce7" if rec.mastered else "#fef9c3" if rec.attempts > 0 else "#f1f5f9"
-        label = "✓ mastered" if rec.mastered else f"{rec.attempts} attempt(s)" if rec.attempts > 0 else "new"
+        # Dark-theme-safe colors: colored left border + explicit dark text
+        if rec.mastered:
+            border = "#22c55e"   # green
+            badge_bg = "#166534"
+            badge_color = "#dcfce7"
+            badge_text = "✓ mastered"
+        elif rec.attempts > 0:
+            border = "#eab308"   # amber
+            badge_bg = "#854d0e"
+            badge_color = "#fef9c3"
+            badge_text = f"{rec.attempts} attempt(s)"
+        else:
+            border = "#6b7280"   # gray
+            badge_bg = "#374151"
+            badge_color = "#f3f4f6"
+            badge_text = "new"
+
         rows += (
             f'<div style="display:flex;justify-content:space-between;align-items:center;'
-            f'padding:8px 14px;background:{color};border-radius:8px;margin-bottom:6px;">'
-            f'<span><strong>{word}</strong> = {rec.meaning} <em style="color:#666">({rec.lang})</em></span>'
-            f'<span style="font-size:0.82rem;color:#555">{label}</span>'
+            f'padding:10px 14px;border-left:4px solid {border};'
+            f'border-radius:6px;margin-bottom:6px;'
+            f'background:rgba(255,255,255,0.05);">'
+            f'<span style="color:#f3f4f6">'
+            f'<strong style="color:#ffffff">{word}</strong>'
+            f' = {rec.meaning}'
+            f' <em style="color:#9ca3af">({rec.lang})</em>'
+            f'</span>'
+            f'<span style="font-size:0.78rem;font-weight:500;padding:2px 8px;'
+            f'border-radius:4px;background:{badge_bg};color:{badge_color}">'
+            f'{badge_text}</span>'
             f'</div>'
         )
     return rows
@@ -69,7 +113,7 @@ def _vocab_html(state) -> str:
 def handle_generate(language: str, topic: str):
     try:
         sentence_obj, logs = orch.generate_sentence(language, topic)
-        html = _highlight_sentence(sentence_obj.sentence, sentence_obj.foreign_word, sentence_obj.display_word)
+        html = _highlight_sentence(sentence_obj.sentence, sentence_obj.foreign_word, sentence_obj.display_word, language)
         state = orch.user_state
         stats = (
             f"Words seen: {state.total_seen}  |  "
@@ -201,7 +245,43 @@ def handle_reset():
 # ── Layout ─────────────────────────────────────────────────────────────────────
 
 def launch_app():
+    speech_js = """
+<script>
+function speakWord(word, langCode) {
+    if (!window.speechSynthesis) {
+        alert("Your browser does not support text-to-speech.");
+        return;
+    }
+    // Cancel any currently playing speech
+    window.speechSynthesis.cancel();
+
+    var utter = new SpeechSynthesisUtterance(word);
+    utter.lang = langCode;
+    utter.rate = 0.85;   // slightly slower for clarity
+    utter.pitch = 1.0;
+
+    // Try to find a voice matching the language
+    var voices = window.speechSynthesis.getVoices();
+    var match = voices.find(function(v) {
+        return v.lang === langCode || v.lang.startsWith(langCode.split("-")[0]);
+    });
+    if (match) { utter.voice = match; }
+
+    window.speechSynthesis.speak(utter);
+}
+
+// Voices load asynchronously on some browsers — pre-load them
+if (window.speechSynthesis) {
+    window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = function() {
+        window.speechSynthesis.getVoices();
+    };
+}
+</script>
+"""
+
     with gr.Blocks(title="Linguo") as demo:
+        gr.HTML(speech_js)   # inject TTS script once on page load
         gr.Markdown("# Linguo\n*Learn vocabulary through context — one word at a time*")
 
         with gr.Tabs():
