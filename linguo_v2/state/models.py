@@ -26,11 +26,19 @@ class PartOfSpeech(str, Enum):
 class GeneratedSentence(BaseModel):
     """Output from the Sentence Agent."""
     sentence:        str
-    foreign_word:    str
+    foreign_word:    str          # native script for CJK; romanized form for others
+    romanization:    str = ""     # pinyin / romaji / romanization — CJK languages only
     english_meaning: str
     part_of_speech:  str
     example_context: str
     difficulty:      str
+
+    @property
+    def display_word(self) -> str:
+        """Returns "狗 (Gou)" for CJK, or just "perro" for Latin-script languages."""
+        if self.romanization:
+            return f"{self.foreign_word} ({self.romanization})"
+        return self.foreign_word
 
 
 class EvaluationResult(BaseModel):

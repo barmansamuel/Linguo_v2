@@ -21,12 +21,21 @@ orch = Orchestrator()
 
 # ── Helper formatters ──────────────────────────────────────────────────────────
 
-def _highlight_sentence(sentence: str, foreign_word: str) -> str:
-    highlighted = sentence.replace(
-        foreign_word,
+def _highlight_sentence(sentence: str, foreign_word: str, display_word: str) -> str:
+    """
+    Replace the native-script token in the sentence with a highlighted span
+    showing display_word (e.g. '狗 (Gou)' for CJK, or 'perro' for Latin).
+    Uses re.sub with re.escape so multi-byte CJK chars are matched exactly once.
+    """
+    import re as _re
+    span = (
         f'<span style="background:#3b5bdb;color:#fff;padding:2px 10px;'
-        f'border-radius:6px;font-weight:600;">{foreign_word}</span>',
+        f'border-radius:6px;font-weight:600;white-space:nowrap;">' 
+        + display_word +
+        '</span>'
     )
+    # re.escape ensures CJK chars and special chars are treated as literals
+    highlighted = _re.sub(_re.escape(foreign_word), span, sentence, count=1)
     return f'<p style="font-size:1.25rem;line-height:1.9;margin:0.5rem 0">{highlighted}</p>'
 
 
@@ -60,7 +69,7 @@ def _vocab_html(state) -> str:
 def handle_generate(language: str, topic: str):
     try:
         sentence_obj, logs = orch.generate_sentence(language, topic)
-        html = _highlight_sentence(sentence_obj.sentence, sentence_obj.foreign_word)
+        html = _highlight_sentence(sentence_obj.sentence, sentence_obj.foreign_word, sentence_obj.display_word)
         state = orch.user_state
         stats = (
             f"Words seen: {state.total_seen}  |  "

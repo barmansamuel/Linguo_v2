@@ -95,18 +95,18 @@ class SQLiteStore:
 
     def save_rag_entry(self, foreign_word: str, language: str,
                        english_meaning: str, part_of_speech: str,
-                       example_context: str) -> None:
+                       example_context: str, romanization: str = "") -> None:
         self.write_query(
             """INSERT INTO rag_entries
-                 (foreign_word, language, english_meaning, part_of_speech, example_context)
-               VALUES (?, ?, ?, ?, ?)
+                 (foreign_word, language, english_meaning, part_of_speech, example_context, romanization)
+               VALUES (?, ?, ?, ?, ?, ?)
                ON CONFLICT(foreign_word, language) DO NOTHING""",
-            (foreign_word, language, english_meaning, part_of_speech, example_context),
+            (foreign_word, language, english_meaning, part_of_speech, example_context, romanization),
         )
 
     def load_rag_entries(self) -> list[dict]:
         return self.read_query(
-            "SELECT foreign_word, language, english_meaning, part_of_speech, example_context FROM rag_entries"
+            "SELECT foreign_word, language, english_meaning, part_of_speech, example_context, romanization FROM rag_entries"
         )
 
     # ── Session stats ──────────────────────────────────────────────────────────
@@ -153,6 +153,7 @@ class SQLiteStore:
                 english_meaning TEXT NOT NULL,
                 part_of_speech  TEXT,
                 example_context TEXT,
+                romanization    TEXT DEFAULT "",
                 PRIMARY KEY (foreign_word, language)
             );
 

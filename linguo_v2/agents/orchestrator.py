@@ -95,7 +95,7 @@ class Orchestrator:
                 english_meaning=row["english_meaning"],
                 part_of_speech=row["part_of_speech"],
                 example_context=row["example_context"],
-            ))
+            ))  # romanization stored in DB but not needed in RAG vector index
 
         return state
 
@@ -127,7 +127,8 @@ class Orchestrator:
         self.db.save_word(result.foreign_word, result.english_meaning, language,
                           rec.correct, rec.attempts)
         self.db.save_rag_entry(result.foreign_word, language, result.english_meaning,
-                               result.part_of_speech, result.example_context)
+                               result.part_of_speech, result.example_context,
+                               getattr(result, 'romanization', ''))
         logs.append(f"[sqlite] saved word '{result.foreign_word}' to db")
 
         # Memory: record word + sentence context
