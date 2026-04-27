@@ -1,0 +1,586 @@
+[
+  {
+    "word": "狗",
+    "romanization": "gǒu",
+    "english": "dog",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "猫",
+    "romanization": "māo",
+    "english": "cat",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "鱼",
+    "romanization": "yú",
+    "english": "fish",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "鸟",
+    "romanization": "niǎo",
+    "english": "bird",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "马",
+    "romanization": "mǎ",
+    "english": "horse",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "房子",
+    "romanization": "fángzi",
+    "english": "house",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "水",
+    "romanization": "shuǐ",
+    "english": "water",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "牛奶",
+    "romanization": "niúnǎi",
+    "english": "milk",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "面包",
+    "romanization": "miànbāo",
+    "english": "bread",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "肉",
+    "romanization": "ròu",
+    "english": "meat",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "水果",
+    "romanization": "shuǐguǒ",
+    "english": "fruit",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "蔬菜",
+    "romanization": "shūcài",
+    "english": "vegetables",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "米饭",
+    "romanization": "mǐfàn",
+    "english": "rice",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "茶",
+    "romanization": "chá",
+    "english": "tea",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "书",
+    "romanization": "shū",
+    "english": "book",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "桌子",
+    "romanization": "zhuōzi",
+    "english": "table",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "椅子",
+    "romanization": "yǐzi",
+    "english": "chair",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "床",
+    "romanization": "chuáng",
+    "english": "bed",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "窗户",
+    "romanization": "chuānghù",
+    "english": "window",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "门",
+    "romanization": "mén",
+    "english": "door",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "城市",
+    "romanization": "chéngshì",
+    "english": "city",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "街道",
+    "romanization": "jiēdào",
+    "english": "street",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "市场",
+    "romanization": "shìchǎng",
+    "english": "market",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "商店",
+    "romanization": "shāngdiàn",
+    "english": "store",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "工作",
+    "romanization": "gōngzuò",
+    "english": "work",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "钱",
+    "romanization": "qián",
+    "english": "money",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "朋友",
+    "romanization": "péngyǒu",
+    "english": "friend",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "家人",
+    "romanization": "jiārén",
+    "english": "family",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "妈妈",
+    "romanization": "māma",
+    "english": "mother",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "爸爸",
+    "romanization": "bàba",
+    "english": "father",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "孩子",
+    "romanization": "háizi",
+    "english": "child",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "吃",
+    "romanization": "chī",
+    "english": "to eat",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "喝",
+    "romanization": "hē",
+    "english": "to drink",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "说话",
+    "romanization": "shuōhuà",
+    "english": "to speak",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "走",
+    "romanization": "zǒu",
+    "english": "to walk/go",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "跑",
+    "romanization": "pǎo",
+    "english": "to run",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "睡觉",
+    "romanization": "shuìjiào",
+    "english": "to sleep",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "读",
+    "romanization": "dú",
+    "english": "to read",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "写",
+    "romanization": "xiě",
+    "english": "to write",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "买",
+    "romanization": "mǎi",
+    "english": "to buy",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "卖",
+    "romanization": "mài",
+    "english": "to sell",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "爱",
+    "romanization": "ài",
+    "english": "to love",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "想",
+    "romanization": "xiǎng",
+    "english": "to think/miss/want",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "知道",
+    "romanization": "zhīdào",
+    "english": "to know",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "旅行",
+    "romanization": "lǚxíng",
+    "english": "to travel",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "做饭",
+    "romanization": "zuòfàn",
+    "english": "to cook",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "大",
+    "romanization": "dà",
+    "english": "big",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "小",
+    "romanization": "xiǎo",
+    "english": "small",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "漂亮",
+    "romanization": "piàoliang",
+    "english": "beautiful",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "快",
+    "romanization": "kuài",
+    "english": "fast",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "慢",
+    "romanization": "màn",
+    "english": "slow",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "热",
+    "romanization": "rè",
+    "english": "hot",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "weather"
+  },
+  {
+    "word": "冷",
+    "romanization": "lěng",
+    "english": "cold",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "weather"
+  },
+  {
+    "word": "高兴",
+    "romanization": "gāoxìng",
+    "english": "happy",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "难过",
+    "romanization": "nánguò",
+    "english": "sad",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "累",
+    "romanization": "lèi",
+    "english": "tired",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "饿",
+    "romanization": "è",
+    "english": "hungry",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "忙",
+    "romanization": "máng",
+    "english": "busy",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "新",
+    "romanization": "xīn",
+    "english": "new",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "旧",
+    "romanization": "jiù",
+    "english": "old",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "便宜",
+    "romanization": "piányí",
+    "english": "cheap",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "shopping"
+  },
+  {
+    "word": "贵",
+    "romanization": "guì",
+    "english": "expensive",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "shopping"
+  },
+  {
+    "word": "难",
+    "romanization": "nán",
+    "english": "difficult",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "缘分",
+    "romanization": "yuánfèn",
+    "english": "fate/destiny (of meeting)",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "加油",
+    "romanization": "jiāyóu",
+    "english": "come on / keep going (encouragement)",
+    "pos": "phrase",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "差不多",
+    "romanization": "chàbuduō",
+    "english": "almost / about the same",
+    "pos": "adverb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "随便",
+    "randomization": "suíbiàn",
+    "english": "whatever / as you like",
+    "pos": "adverb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "心疼",
+    "romanization": "xīnténg",
+    "english": "to feel sorry for / ache for someone",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "幸福",
+    "romanization": "xìngfú",
+    "english": "happiness/bliss",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "委屈",
+    "romanization": "wěiqu",
+    "english": "to feel wronged/aggrieved",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "闺蜜",
+    "romanization": "guīmì",
+    "english": "close female friend/bestie",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "暗示",
+    "romanization": "ànshì",
+    "english": "to hint/imply",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "凑合",
+    "romanization": "còuhe",
+    "english": "to make do/manage",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  }
+]

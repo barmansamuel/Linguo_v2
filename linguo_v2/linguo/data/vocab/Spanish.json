@@ -1,0 +1,682 @@
+[
+  {
+    "word": "perro",
+    "romanization": "",
+    "english": "dog",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "gato",
+    "romanization": "",
+    "english": "cat",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "casa",
+    "romanization": "",
+    "english": "house",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "agua",
+    "romanization": "",
+    "english": "water",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "leche",
+    "romanization": "",
+    "english": "milk",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "pan",
+    "romanization": "",
+    "english": "bread",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "carne",
+    "romanization": "",
+    "english": "meat",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "fruta",
+    "romanization": "",
+    "english": "fruit",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "verdura",
+    "romanization": "",
+    "english": "vegetable",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "arroz",
+    "romanization": "",
+    "english": "rice",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "libro",
+    "romanization": "",
+    "english": "book",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "mesa",
+    "romanization": "",
+    "english": "table",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "silla",
+    "romanization": "",
+    "english": "chair",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "cama",
+    "romanization": "",
+    "english": "bed",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "ventana",
+    "romanization": "",
+    "english": "window",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "puerta",
+    "romanization": "",
+    "english": "door",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "ciudad",
+    "romanization": "",
+    "english": "city",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "calle",
+    "romanization": "",
+    "english": "street",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "mercado",
+    "romanization": "",
+    "english": "market",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "tienda",
+    "romanization": "",
+    "english": "store",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "trabajo",
+    "romanization": "",
+    "english": "work",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "dinero",
+    "romanization": "",
+    "english": "money",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "tiempo",
+    "romanization": "",
+    "english": "time/weather",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "amigo",
+    "romanization": "",
+    "english": "friend",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "familia",
+    "romanization": "",
+    "english": "family",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "madre",
+    "romanization": "",
+    "english": "mother",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "padre",
+    "romanization": "",
+    "english": "father",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "hijo",
+    "romanization": "",
+    "english": "son",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "hija",
+    "romanization": "",
+    "english": "daughter",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "niño",
+    "romanization": "",
+    "english": "child",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "comer",
+    "romanization": "",
+    "english": "to eat",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "beber",
+    "romanization": "",
+    "english": "to drink",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "hablar",
+    "romanization": "",
+    "english": "to speak",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "caminar",
+    "romanization": "",
+    "english": "to walk",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "correr",
+    "romanization": "",
+    "english": "to run",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "dormir",
+    "romanization": "",
+    "english": "to sleep",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "leer",
+    "romanization": "",
+    "english": "to read",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "escribir",
+    "romanization": "",
+    "english": "to write",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "comprar",
+    "romanization": "",
+    "english": "to buy",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "vender",
+    "romanization": "",
+    "english": "to sell",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "trabajar",
+    "romanization": "",
+    "english": "to work",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "vivir",
+    "romanization": "",
+    "english": "to live",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "amar",
+    "romanization": "",
+    "english": "to love",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "odiar",
+    "romanization": "",
+    "english": "to hate",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "pensar",
+    "romanization": "",
+    "english": "to think",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "saber",
+    "romanization": "",
+    "english": "to know",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "poder",
+    "romanization": "",
+    "english": "to be able to",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "querer",
+    "romanization": "",
+    "english": "to want",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "viajar",
+    "romanization": "",
+    "english": "to travel",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "cocinar",
+    "romanization": "",
+    "english": "to cook",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "grande",
+    "romanization": "",
+    "english": "big",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "pequeño",
+    "romanization": "",
+    "english": "small",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "bonito",
+    "romanization": "",
+    "english": "pretty",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "feo",
+    "romanization": "",
+    "english": "ugly",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "rápido",
+    "romanization": "",
+    "english": "fast",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "lento",
+    "romanization": "",
+    "english": "slow",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "caliente",
+    "romanization": "",
+    "english": "hot",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "weather"
+  },
+  {
+    "word": "frío",
+    "romanization": "",
+    "english": "cold",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "weather"
+  },
+  {
+    "word": "feliz",
+    "romanization": "",
+    "english": "happy",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "triste",
+    "romanization": "",
+    "english": "sad",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "cansado",
+    "romanization": "",
+    "english": "tired",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "hambriento",
+    "romanization": "",
+    "english": "hungry",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "sediento",
+    "romanization": "",
+    "english": "thirsty",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "food"
+  },
+  {
+    "word": "ocupado",
+    "romanization": "",
+    "english": "busy",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "work"
+  },
+  {
+    "word": "libre",
+    "romanization": "",
+    "english": "free",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "nuevo",
+    "romanization": "",
+    "english": "new",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "viejo",
+    "romanization": "",
+    "english": "old",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "barato",
+    "romanization": "",
+    "english": "cheap",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "shopping"
+  },
+  {
+    "word": "caro",
+    "romanization": "",
+    "english": "expensive",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "shopping"
+  },
+  {
+    "word": "difícil",
+    "romanization": "",
+    "english": "difficult",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "madrugada",
+    "romanization": "",
+    "english": "early morning/dawn",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "añoranza",
+    "romanization": "",
+    "english": "longing/nostalgia",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "mariposa",
+    "romanization": "",
+    "english": "butterfly",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "nature"
+  },
+  {
+    "word": "tormenta",
+    "romanization": "",
+    "english": "storm",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "weather"
+  },
+  {
+    "word": "paisaje",
+    "romanization": "",
+    "english": "landscape",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "nature"
+  },
+  {
+    "word": "libertad",
+    "romanization": "",
+    "english": "freedom",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "confianza",
+    "romanization": "",
+    "english": "trust/confidence",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "esperanza",
+    "romanization": "",
+    "english": "hope",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "orgullo",
+    "romanization": "",
+    "english": "pride",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "vergüenza",
+    "romanization": "",
+    "english": "shame/embarrassment",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "madrugar",
+    "romanization": "",
+    "english": "to wake up early",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "estrenar",
+    "romanization": "",
+    "english": "to use/wear for the first time",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "sobremesa",
+    "romanization": "",
+    "english": "time spent talking after a meal",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "food"
+  },
+  {
+    "word": "madrileño",
+    "romanization": "",
+    "english": "person from Madrid",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "travel"
+  },
+  {
+    "word": "aguacate",
+    "romanization": "",
+    "english": "avocado",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "food"
+  }
+]

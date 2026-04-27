@@ -1,0 +1,586 @@
+[
+  {
+    "word": "강아지",
+    "romanization": "gang-aji",
+    "english": "puppy/dog",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "고양이",
+    "romanization": "go-yang-i",
+    "english": "cat",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "물고기",
+    "romanization": "mul-go-gi",
+    "english": "fish",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "새",
+    "romanization": "sae",
+    "english": "bird",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "animals"
+  },
+  {
+    "word": "집",
+    "romanization": "jip",
+    "english": "house",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "물",
+    "romanization": "mul",
+    "english": "water",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "우유",
+    "romanization": "u-yu",
+    "english": "milk",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "빵",
+    "romanization": "ppang",
+    "english": "bread",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "고기",
+    "romanization": "go-gi",
+    "english": "meat",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "과일",
+    "romanization": "gwa-il",
+    "english": "fruit",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "야채",
+    "romanization": "ya-chae",
+    "english": "vegetables",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "밥",
+    "romanization": "bap",
+    "english": "rice/meal",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "차",
+    "romanization": "cha",
+    "english": "tea",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "책",
+    "romanization": "chaek",
+    "english": "book",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "책상",
+    "romanization": "chaek-sang",
+    "english": "desk",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "의자",
+    "romanization": "ui-ja",
+    "english": "chair",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "침대",
+    "romanization": "chim-dae",
+    "english": "bed",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "창문",
+    "romanization": "chang-mun",
+    "english": "window",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "문",
+    "romanization": "mun",
+    "english": "door",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "home"
+  },
+  {
+    "word": "도시",
+    "romanization": "do-si",
+    "english": "city",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "길",
+    "romanization": "gil",
+    "english": "road/way",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "시장",
+    "romanization": "si-jang",
+    "english": "market",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "가게",
+    "romanization": "ga-ge",
+    "english": "store",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "일",
+    "romanization": "il",
+    "english": "work",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "돈",
+    "romanization": "don",
+    "english": "money",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "친구",
+    "romanization": "chin-gu",
+    "english": "friend",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "가족",
+    "romanization": "ga-jok",
+    "english": "family",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "어머니",
+    "romanization": "eo-meo-ni",
+    "english": "mother",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "아버지",
+    "romanization": "a-beo-ji",
+    "english": "father",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "아이",
+    "romanization": "a-i",
+    "english": "child",
+    "pos": "noun",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "먹다",
+    "romanization": "meok-da",
+    "english": "to eat",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "마시다",
+    "romanization": "ma-si-da",
+    "english": "to drink",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "말하다",
+    "romanization": "mal-ha-da",
+    "english": "to speak",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "걷다",
+    "romanization": "geot-da",
+    "english": "to walk",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "달리다",
+    "romanization": "dal-li-da",
+    "english": "to run",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "자다",
+    "romanization": "ja-da",
+    "english": "to sleep",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "읽다",
+    "romanization": "ilk-da",
+    "english": "to read",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "쓰다",
+    "romanization": "sseu-da",
+    "english": "to write",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "사다",
+    "romanization": "sa-da",
+    "english": "to buy",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "팔다",
+    "romanization": "pal-da",
+    "english": "to sell",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "shopping"
+  },
+  {
+    "word": "일하다",
+    "romanization": "il-ha-da",
+    "english": "to work",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "work"
+  },
+  {
+    "word": "사랑하다",
+    "romanization": "sa-rang-ha-da",
+    "english": "to love",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "생각하다",
+    "romanization": "saeng-gak-ha-da",
+    "english": "to think",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "알다",
+    "romanization": "al-da",
+    "english": "to know",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "여행하다",
+    "romanization": "yeo-haeng-ha-da",
+    "english": "to travel",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "travel"
+  },
+  {
+    "word": "요리하다",
+    "romanization": "yo-ri-ha-da",
+    "english": "to cook",
+    "pos": "verb",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "크다",
+    "romanization": "keu-da",
+    "english": "big",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "작다",
+    "romanization": "jak-da",
+    "english": "small",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "예쁘다",
+    "romanization": "ye-ppeu-da",
+    "english": "beautiful",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "빠르다",
+    "romanization": "ppa-reu-da",
+    "english": "fast",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "느리다",
+    "romanization": "neu-ri-da",
+    "english": "slow",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "덥다",
+    "romanization": "deop-da",
+    "english": "hot",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "weather"
+  },
+  {
+    "word": "춥다",
+    "romanization": "chup-da",
+    "english": "cold",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "weather"
+  },
+  {
+    "word": "행복하다",
+    "romanization": "haeng-bok-ha-da",
+    "english": "to be happy",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "슬프다",
+    "romanization": "seul-peu-da",
+    "english": "sad",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "피곤하다",
+    "romanization": "pi-gon-ha-da",
+    "english": "tired",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "emotions"
+  },
+  {
+    "word": "배고프다",
+    "romanization": "bae-go-peu-da",
+    "english": "hungry",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "food"
+  },
+  {
+    "word": "바쁘다",
+    "romanization": "ba-ppeu-da",
+    "english": "busy",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "work"
+  },
+  {
+    "word": "새롭다",
+    "romanization": "sae-rop-da",
+    "english": "new",
+    "pos": "adjective",
+    "difficulty": "easy",
+    "topic": "everyday life"
+  },
+  {
+    "word": "오래되다",
+    "romanization": "o-rae-doe-da",
+    "english": "old",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "싸다",
+    "romanization": "ssa-da",
+    "english": "cheap",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "shopping"
+  },
+  {
+    "word": "비싸다",
+    "romanization": "bi-ssa-da",
+    "english": "expensive",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "shopping"
+  },
+  {
+    "word": "어렵다",
+    "romanization": "eo-ryeop-da",
+    "english": "difficult",
+    "pos": "adjective",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "눈치",
+    "romanization": "nun-chi",
+    "english": "ability to read the room/social awareness",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "정",
+    "romanization": "jeong",
+    "english": "deep emotional bond/attachment",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "한",
+    "romanization": "han",
+    "english": "collective feeling of grief and resentment",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "눈물",
+    "romanization": "nun-mul",
+    "english": "tears",
+    "pos": "noun",
+    "difficulty": "medium",
+    "topic": "emotions"
+  },
+  {
+    "word": "그리움",
+    "romanization": "geu-ri-um",
+    "english": "longing/missing someone",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "emotions"
+  },
+  {
+    "word": "빨리빨리",
+    "romanization": "ppal-li ppal-li",
+    "english": "hurry hurry / quickly",
+    "pos": "adverb",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "아이고",
+    "romanization": "a-i-go",
+    "english": "oh my / goodness (exclamation)",
+    "pos": "interjection",
+    "difficulty": "medium",
+    "topic": "everyday life"
+  },
+  {
+    "word": "고생",
+    "romanization": "go-saeng",
+    "english": "hardship/suffering",
+    "pos": "noun",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "눈치채다",
+    "romanization": "nun-chi-chae-da",
+    "english": "to pick up on subtle cues",
+    "pos": "verb",
+    "difficulty": "hard",
+    "topic": "everyday life"
+  },
+  {
+    "word": "보고싶다",
+    "romanization": "bo-go-sip-da",
+    "english": "to miss someone",
+    "pos": "verb",
+    "difficulty": "medium",
+    "topic": "emotions"
+  }
+]
